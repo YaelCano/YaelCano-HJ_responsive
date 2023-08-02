@@ -9,3 +9,6 @@
     border: 1px solid red;
     justify-items: start;
 }
+.layout div{
+    border: 1px solid red;
+}
