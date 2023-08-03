@@ -2,7 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: #F6F1F1;
+    background-color: #7EAA92;
     width: 100%;
     height: 100%;
 }
@@ -11,6 +11,22 @@ body {
     justify-content: space-between;
     margin: 10px;
 }
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+.habilidades li {
+    margin-bottom: 15px;
+}
+
+.habilidad-nombre {
+    font-weight: bold;
+}
+
 
 .foto{
     border-radius: 50%;
@@ -19,4 +35,180 @@ body {
     height: 100px;
     margin: 0;
 }
+.barra-progreso {
+    height: 100%;
+    background-color: #C8E4B2;
+}
 
+.habilidad-nivel,
+.habilidad-experiencia {
+    display: block;
+    margin-top: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.columna1,
+.columna2,
+.columna3 {
+    flex: 1;
+    margin: 10px;
+}
+
+
+.datos-personales,
+.perfil-profesional,
+.habilidades,
+.proyectos-personales,
+.idiomas,
+.estudios,
+.experiencia {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
+.habilidades li {
+    margin-bottom: 15px;
+}
+
+.habilidad-nombre {
+    font-weight: bold;
+}
+
+.progreso {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    height: 10px;
+    overflow: hidden;
+}
+
+.barra-progreso {
+    height: 100%;
+    background-color: #4CAF50;
+}
+
+.habilidad-nivel,
+.habilidad-experiencia {
+    display: block;
+    margin-top: 5px;
+}
+
+
+/* PROYECTOS */
+
+.proyectos-personales ul {
+    list-style: none;
+    padding: 0;
+}
+
+.proyectos-personales li {
+    margin-bottom: 15px;
+}
+
+.proyecto-nombre {
+    font-weight: bold;
+}
+
+.proyecto-duracion,
+.proyecto-almacenamiento,
+.proyecto-tecnologias {
+    display: block;
+    margin-top: 5px;
+}
+
+  /* ESTUDIOS */
+
+
+.estudios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.estudios li {
+    margin-bottom: 10px;
+}
+
+.estudios li:nth-child(odd) {
+    font-weight: bold;
+}
+
+.estudios li:nth-child(3),
+.estudios li:nth-child(6) {
+    margin-bottom: 15px;
+}
+
+  /* IDIOMAS */
+
+
+.idiomas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.idiomas li {
+    margin-bottom: 15px;
+}
+
+.idioma-nombre {
+    font-weight: bold;
+}
+
+.idioma-nivel {
+    display: block;
+    margin-top: 5px;
+}
+
+  /* EXPERIENCIA */
+
+.experiencia ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experiencia li {
+    margin-bottom: 10px;
+}
+
+.experiencia li:nth-child(odd) {
+    font-weight: bold;
+}
+
+.experiencia li:last-child {
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 98, 255);
+}
